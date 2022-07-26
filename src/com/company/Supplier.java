@@ -1,0 +1,6 @@
+package com.company;
+
+@FunctionalInterface
+public interface Supplier<T> {
+    T get();
+}
